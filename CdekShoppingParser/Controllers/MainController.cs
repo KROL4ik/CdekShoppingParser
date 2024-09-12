@@ -1,4 +1,7 @@
-﻿using CdekShoppingParser.Loader;
+﻿using AngleSharp.Html.Dom;
+using AngleSharp.Html.Parser;
+using CdekShoppingParser.CdekParser;
+using CdekShoppingParser.Loader;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CdekShoppingParser.Controllers
@@ -15,8 +18,20 @@ namespace CdekShoppingParser.Controllers
         public async Task<string> Index()
         {
            var page = await  _htmlLoader.GetPageAsync("https://cdek.shopping/c/83/noutbuki");
-           
-           return page;
+
+           HtmlParser htmlParser = new();
+
+           var res = await htmlParser.ParseDocumentAsync(page);
+           CdekParserFromHtml cdekParser = new CdekParserFromHtml();
+           var list =  cdekParser.Parse(res);
+
+            string s="";
+            foreach (var e in list)
+            {
+                s += e.ProductName;
+            }
+
+           return s+"aboba";
         }
     }
 }

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XJ81LF+nfA+cx7f+7uOLOkApfVSAU8RuxNtmJfoBHC8d8Q5DQktE2tZ3NlbLj8l+ReonmACa+c4lkBqX77y6vA==",
+  "dgSpecHash": "Ab8PcLdv6/Fy99MVih8zR3T1W1T/UqCevX6fW/7HQmiNtZtkiEufJlbAA0IAovEExPoLiBRd+T/AeyHUht+A7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\varva\\source\\repos\\CdekShoppingParser\\CdekShoppingParser\\CdekShoppingParser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\varva\\.nuget\\packages\\serilog\\4.0.1\\serilog.4.0.1.nupkg.sha512"
+    "C:\\Users\\varva\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
+    "C:\\Users\\varva\\.nuget\\packages\\serilog\\4.0.1\\serilog.4.0.1.nupkg.sha512",
+    "C:\\Users\\varva\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

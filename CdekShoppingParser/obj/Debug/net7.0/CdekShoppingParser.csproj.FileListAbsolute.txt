@@ -27,3 +27,4 @@ C:\Users\varva\source\repos\CdekShoppingParser\CdekShoppingParser\obj\Debug\net7
 C:\Users\varva\source\repos\CdekShoppingParser\CdekShoppingParser\obj\Debug\net7.0\ref\CdekShoppingParser.dll
 C:\Users\varva\source\repos\CdekShoppingParser\CdekShoppingParser\bin\Debug\net7.0\Serilog.dll
 C:\Users\varva\source\repos\CdekShoppingParser\CdekShoppingParser\obj\Debug\net7.0\CdekShoppingParser.csproj.CopyComplete
+C:\Users\varva\source\repos\CdekShoppingParser\CdekShoppingParser\bin\Debug\net7.0\AngleSharp.dll
