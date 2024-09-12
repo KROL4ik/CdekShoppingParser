@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XJ81LF+nfA+cx7f+7uOLOkApfVSAU8RuxNtmJfoBHC8d8Q5DQktE2tZ3NlbLj8l+ReonmACa+c4lkBqX77y6vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\varva\\source\\repos\\CdekShoppingParser\\CdekShoppingParser\\CdekShoppingParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\varva\\.nuget\\packages\\serilog\\4.0.1\\serilog.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
